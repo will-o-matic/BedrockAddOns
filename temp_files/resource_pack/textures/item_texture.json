@@ -7,6 +7,10 @@
       "corrupt_bone_sword": {
 			"textures": "textures/items/corrupt_bone_sword"
 		},
+      "my_sword": {
+			// Make sure you have put an icon texture called my_sword.png here
+			"textures": "textures/items/my_sword"
+		},
       "amethyst_shard" : {
          "textures" : "textures/items/amethyst_shard"
       },

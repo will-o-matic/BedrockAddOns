@@ -1,0 +1,17 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "flame_BP",
+		"description": "Flame!",
+		"uuid": "5faf4fbe-48bc-48bf-8f50-b484579470e5",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "5089482b-1d5d-4e1f-98d2-2da7324f3770",
+			"version": [1, 0, 0]
+		}
+	]
+}

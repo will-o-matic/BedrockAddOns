@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "flame_RP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"corrupt_bone_sword": {
+			"textures": "textures/items/corrupt_bone_sword"
+		}
+	}
+}
