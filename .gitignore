@@ -5,3 +5,4 @@ node_modules
 *.mcpack
 *.zip
 temp_files/behavior_pack.mcpack.zip
+bedrock-samples/*
