@@ -9,6 +9,7 @@
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"
 			},
+			"minecraft:damage": 12,
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
 			"minecraft:enchantable": {

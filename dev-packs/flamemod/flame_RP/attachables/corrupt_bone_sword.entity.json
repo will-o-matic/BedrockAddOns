@@ -1,36 +1,36 @@
 {
-	"format_version": "1.12.0",
-	"minecraft:attachable": {
-		"description": {
-			"identifier": "minecraft:stick",
-			"materials": {
-				"default": "entity",
-				"enchanted": "entity_alphatest_glint"
-			},
-			"textures": {
-				"default": "textures/entity/steve",
-				"enchanted": "textures/misc/enchanted_item_glint"
-			},
-			"geometry": {
-				"default": "geometry.wiki.steve_head"
-			},
-			"animations": {
-				"hold_first_person": "animation.steve_head.hold_first_person",
-				"hold_third_person": "animation.steve_head.hold_third_person"
-			},
-			"scripts": {
-				"animate": [
-					{
-						"hold_first_person": "context.is_first_person == 1.0"
-					},
-					{
-						"hold_third_person": "context.is_first_person == 0.0"
-					}
-				]
-			},
-			"render_controllers": [
-				"controller.render.item_default"
-			]
-		}
-	}
-}
+    "format_version": "1.12.0",
+    "minecraft:attachable": {
+      "description": {
+        "identifier": "flame:corrupt_bone_sword",
+        "materials": {
+          "default": "entity",
+          "enchanted": "entity_alphatest_glint"
+        },
+        "textures": {
+          "default": "textures/entity/corrupt_bone_sword",
+          "enchanted": "textures/misc/enchanted_item_glint"
+        },
+        "geometry": {
+          "default": "geometry.corrupt_bone_sword"
+        },
+        "animations": {
+            "hold_first_person": "animation.steve_head.hold_first_person",
+            "hold_third_person": "animation.steve_head.hold_third_person"
+        },
+        "scripts": {
+            "animate": [
+                {
+                    "hold_first_person": "context.is_first_person == 1.0"
+                },
+                {
+                    "hold_third_person": "context.is_first_person == 0.0"
+                }
+            ]
+        },
+        "render_controllers": [
+          "controller.render.item_default"
+        ]
+      }
+    }
+  }
